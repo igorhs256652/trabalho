@@ -22,6 +22,6 @@ document.getElementById("contatoForm").addEventListener("submit", function(event
     // Simulação do envio
     alert("Mensagem enviada com sucesso!\n\nNome: " + nome + "\nEmail: " + email + "\nMensagem: " + mensagem);
 
-    // Aqui você poderia limpar o formulário, se quiser
+    // Limpa o formulário após o envio
     document.getElementById("contatoForm").reset();
 });
